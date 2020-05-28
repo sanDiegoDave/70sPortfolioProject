@@ -1,0 +1,38 @@
+body {
+    font-family: 'Spicy Rice', cursive;
+    background-color: #ffebcc 
+}
+
+h1, h2, h3 {
+    font-family: 'Spicy Rice', cursive
+}
+
+.jumbotron {
+    margin: 0px;
+    background: url(img/headpos.jpeg);
+    color: white;
+    background-color: rgba(255, 132, 230, 0.85) !important;
+}
+.navbar-custom {
+    background-color: brown
+}
+.navbar-custom li a {
+    color: white;
+    font-size: 20px;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #ffebcc; 
+    border: white 2px solid;
+}
+
+.figure-img {
+    border: 2px white solid
+}
+.figure-caption {
+    font-size: 20px;
+    color: brown
+}
