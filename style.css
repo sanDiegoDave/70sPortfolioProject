@@ -7,12 +7,16 @@ h1, h2, h3 {
     font-family: 'Spicy Rice', cursive
 }
 
+h5 {
+    color: brown;
+}
+
 .jumbotron {
     margin: 0px;
-    background: url(img/headpos.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/headpos.jpeg);
     color: white;
-    background-color: rgba(255, 132, 230, 0.85) !important;
 }
+
 .navbar-custom {
     background-color: brown
 }
