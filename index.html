@@ -40,26 +40,24 @@
             <li class="nav-item">
                 <a class="nav-link" href="flowerpower.html">Flower Power</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="ethos.html">Business Ethos</a>
-            </li>
+
         </ul>
 
 
         <div class="container">
-            <div class="row">
-                <div class="col col-xs-12 col-md-6 d-flex mx-auto">
-                    <figure class="figure">
-                        <img src="img/imgew/1970s fashion (18).jpg" class="figure-img img-fluid rounded"
-                            alt="everyday">
-                        <figcaption class="figure-caption text-center">Let's Get Casual</figcaption>
+            <div class="row justify-content-around">
+                <div class="col col-12 col-md-6 text-center mx-auto">
+                    <figure class="figure text-center">
+                        <a href="everyday.html"><img src="img/imgew/1970s fashion (18).jpg" class="figure-img img-fluid"
+                                alt="everyday"></a>
+                        <figcaption class="figure-caption">Let's Get Casual</figcaption>
                     </figure>
                 </div>
-                <div class="col d-flex mx-auto">
-                    <figure class="figure">
-                        <img src="/img/rHwMi7n.jpg" class="figure-img img-fluid rounded"
-                            alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption text-center">Let's Get Funky</figcaption>
+                <div class="col col-12 col-md-6 text-center mx-auto">
+                    <figure class="figure text-center">
+                        <a href="flowerpower.html"><img src="/img/rHwMi7n.jpg" class="figure-img img-fluid"
+                                alt="flower"></a>
+                        <figcaption class="figure-caption">Let's Get Funky</figcaption>
                     </figure>
                 </div>
             </div>
@@ -67,19 +65,16 @@
 
 
         <footer class="site-footer">
-            <div class="container">
+            <div class="container pt-3">
                 <div class="row">
 
-                    <div class="col text-center mb-2">
-                        <h5>Inspo:</h5>
-                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                                class="fa fa-instagram"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                                class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                                class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                                class="fa fa-youtube"></i></a>
+                    <div class="col text-center">
+                        <h5>Inspo:
+                            <a class="btn btn-social-icon btn-instagram"
+                                href="https://www.instagram.com/explore/tags/70sfashion/?hl=en"><i
+                                    class="fa fa-instagram"></i></a></h5>
+                         <h5><a href="#" data-toggle="tooltip" data-placement="bottom"
+                            title="A play on the department store, Mervyns, a popular national outlet">Lervyns</a> 1972</h5>
                     </div>
                 </div>
             </div>
@@ -90,7 +85,11 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
 </body>
 
 </html>

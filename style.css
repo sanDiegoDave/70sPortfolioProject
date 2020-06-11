@@ -1,6 +1,6 @@
 body {
     font-family: 'Spicy Rice', cursive;
-    background-color: #ffebcc 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/1381538.jpg)
 }
 
 h1, h2, h3 {
@@ -8,7 +8,7 @@ h1, h2, h3 {
 }
 
 h5 {
-    color: brown;
+    color: whitesmoke;
 }
 
 .jumbotron {
@@ -38,5 +38,9 @@ a, a:hover, a:focus {
 }
 .figure-caption {
     font-size: 20px;
-    color: brown
+    color: whitesmoke
 }
+
+.tooltip .tooltip-inner {
+    background-color: brown;
+  }
